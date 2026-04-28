@@ -1,9 +1,10 @@
-"""
+﻿"""
 Trishula RaaS — Test Suite
 SQA v5 [ASCENDED] Compliance: MC/DC Determinism + Bit-Perfect Persistence
 """
 import json
 import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import os
 sys.path.insert(0, os.path.dirname(__file__))
 from raas_server import app, VULN_DB
